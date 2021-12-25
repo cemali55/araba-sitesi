@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    width: 100vw;
+    background-image: url(nissan-silvia-s14-g672cb6cff_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 100px;
+    width: 150px;
+    object-fit: scale-down;
+}
+
+header ul {
+    display: flex;
+    width: 50vw;
+    height: min-content;
+    justify-content: space-around;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 70px;
+}
+
+header ul a li {
+    list-style-type: none;
+}
+
+main {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main div {
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    width: 100vw;
+}
+
+main div img {
+    height: 180px;
+    width: 20vw;
+    object-fit: scale-down;
+    border-radius: 20px;
+}
+
+main div p {
+    height: 180px;
+    width: 78vw;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cemali {
+    display: flex;
+    width: 40vw;
+    height: min-content;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cemali div a {
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
